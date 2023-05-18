@@ -14,7 +14,7 @@ services:
       - key: DATABADE_URL 
         fromDatabase:
           name: postgres
-          property: commectionString
+          property: connectionString
   - type: redis
     name: redis
     ipAllowList: []
